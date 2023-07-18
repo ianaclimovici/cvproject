@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --index: calc(1vw+1vh);
+    --color-header: #f4efec;
+    --color-text: #cdc6c3;
+}
+
+@font-face {
+    font-family: 'Victor Mono', monospace;
+}
+
+body {
+    background-color: #5a5752;
+    color: #fafafa;
+    font-family: Victor Mono;
+    overflow: hidden;
+}
+
+.hero {
+    width: 1000px;
+    position: absolute;
+    left: 40vw;
+    
+}
+
+
